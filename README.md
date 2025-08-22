@@ -1,45 +1,8 @@
 # N‑Queens with a Genetic Algorithm (PyGAD)
 
-A compact, version‑robust PyGAD implementation of the N‑Queens problem with theory notes and publication‑ready plots. No `argparse`; tweak hyperparameters at the top of `main.py`.
+A compact, version‑robust PyGAD implementation of the N‑Queens problem with theory notes and publication‑ready plots.
 
 ---
-
-## 📁 Project layout
-
-```
-.
-├─ main.py            # GA solver using PyGAD only (version‑robust)
-└─ docs/
-   ├─ fitness.png     # Fitness curves (best & mean)
-   ├─ conflicts.png   # Best # of conflicts per generation
-   └─ board.png       # Final board rendering
-```
-
-## ⚙️ Requirements
-
-* Python 3.9+
-* Packages: `pygad`, `numpy`, `matplotlib`
-
-Create a virtual environment with uv
-```bash
-uv init
-```
-
-Install with pip:
-
-```bash
-uv add pygad numpy matplotlib
-```
-
-## 🚀 Run
-
-From the project root:
-
-```bash
-uv run main.py
-```
-
-This runs the GA and generates the three plots into `docs/` (and also displays them).
 
 ## 🧠 How it works (quick theory)
 
@@ -103,3 +66,39 @@ This project supports PyGAD **2.20.0+** by introspecting `pygad.GA.__init__` and
 
 ---
 
+## 📁 Project layout
+
+```
+.
+├─ main.py            # GA solver using PyGAD only (version‑robust)
+└─ docs/
+   ├─ fitness.png     # Fitness curves (best & mean)
+   ├─ conflicts.png   # Best # of conflicts per generation
+   └─ board.png       # Final board rendering
+```
+
+## ⚙️ Requirements
+
+* Python 3.9+
+* Packages: `pygad`, `numpy`, `matplotlib`
+
+Create a virtual environment with uv
+```bash
+uv init
+```
+
+Install with pip:
+
+```bash
+uv add pygad numpy matplotlib
+```
+
+## 🚀 Run
+
+From the project root:
+
+```bash
+uv run main.py
+```
+
+This runs the GA and generates the three plots into `docs/` (and also displays them).
