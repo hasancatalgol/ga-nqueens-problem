@@ -102,3 +102,6 @@ uv run main.py
 ```
 
 This runs the GA and generates the three plots into `docs/` (and also displays them).
+
+Note: Inspired from Udemy AI and Meta-Heuristics (Combinatorial Optimization) Python in the Udemy. Check the course, it is fire
+
