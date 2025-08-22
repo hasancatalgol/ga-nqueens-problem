@@ -20,16 +20,15 @@ A compact, version‑robust PyGAD implementation of the N‑Queens problem with 
 * Python 3.9+
 * Packages: `pygad`, `numpy`, `matplotlib`
 
+Create a virtual environment with uv
+```bash
+uv init
+```
+
 Install with pip:
 
 ```bash
-pip install pygad numpy matplotlib
-```
-
-Or with uv:
-
-```bash
-uv pip install pygad numpy matplotlib
+uv add pygad numpy matplotlib
 ```
 
 ## 🚀 Run
@@ -37,8 +36,6 @@ uv pip install pygad numpy matplotlib
 From the project root:
 
 ```bash
-python main.py
-# or
 uv run main.py
 ```
 
